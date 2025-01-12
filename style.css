@@ -1,0 +1,429 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(245, 245, 245);
+  width: 1600px;
+}
+
+/* start: banner */
+.banner {
+  margin: 20px 160px 80px 160px;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  /* padding-right: 16px; */
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.subtitle {
+  color: rgba(14, 14, 14, 0.5);
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+div.content > h1 {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cta-button {
+  border-radius: 8px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+  padding: 14px 31px 14px 31px;
+}
+
+/* end: banner */
+/* start:vision  */
+
+.vision-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-between;
+
+  gap: 15px;
+
+  border-radius: 24px;
+}
+
+.section-title {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.section-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.cards-container {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 24px;
+}
+.card {
+  /* background: tomato; */
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-content: space-between;
+  gap: 8px;
+}
+.blue-card {
+  background: rgba(84, 144, 245, 0.2);
+}
+.green-card {
+  background: rgb(198, 228, 214);
+}
+.yellow-card {
+  background: rgb(247, 235, 207);
+}
+.learn-more {
+  box-sizing: border-box;
+  border-radius: 16px;
+
+  background: rgb(84, 144, 245);
+
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0 70px 0 0;
+  padding: 11px 20px 11px 20px;
+}
+.light {
+  /* position: absolute; */
+  width: 62px;
+  height: 62px;
+  left: 1px;
+  top: 1px;
+}
+
+.card h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* end: vision  */
+
+/* start: Quote  */
+.quote-box {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  /* align-content: space-evenly; */
+
+  gap: 25px;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding-top: 20px;
+
+  padding-bottom: 20px;
+  padding: 35px 24px 48px 24px;
+
+  background-image: url("/asset/quote-bg.png");
+
+  background-size: contain;
+  background-size: 5%;
+
+  /* background-image: 50px 25px; */
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.quote-bg {
+  /* background-color: tomato; */
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.quote-text {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.author {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.designation {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* end: Quote  */
+
+/* start: News */
+.news-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-between;
+
+  gap: 32px;
+
+  border-radius: 24px;
+}
+/* end: News */
+.news-card {
+  display: flex;
+
+  padding: 48px;
+  gap: 32px;
+  /* justify-content: space-between; */
+  border-radius: 24px;
+
+  background: rgb(255, 255, 255);
+}
+.news-image {
+  border-radius: 24px;
+
+  background: url(image);
+}
+.news-content {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* start: donation  */
+.donate-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+
+  border-radius: 24px;
+}
+.donation-button {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  margin-left: 24px;
+}
+.custom-amount {
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: none;
+  /* background-color: tomato; */
+  margin: 32px;
+}
+.custom-amount-style {
+  /* background-color: tomato; */
+  /* style */
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+  padding: 20px 375px 20px 375px;
+}
+.donation-button:hover {
+  /* background-color: #f0f8f5;
+  border-color: #007b3a; */
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(198, 228, 214);
+}
+.donation-button.active {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+
+  background: rgb(198, 228, 214);
+}
+
+/* end : donation */
+
+/* start: newsletter */
+.newsletter-section {
+  margin: 80px 160px 80px 160px;
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+
+  gap: 20px;
+
+  border-radius: 24px;
+
+  background: rgb(198, 228, 214);
+}
+.newsletter-section > h1 {
+  margin-top: 20px;
+}
+.newsletter-section > p {
+  margin-bottom: 20px;
+}
+.newsletter-section > form > div > input {
+  border-radius: 8px 0px 0px 8px;
+
+  background: rgb(255, 255, 255);
+  padding: 18px 40px 18px 40px;
+  margin-right: 466px;
+  margin-top: 2px;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.newsletter-section > form > div > button {
+  border-radius: 0px 8px 8px 0px;
+
+  background: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 17px 34px 17px 34px;
+}
+.custom-email-style {
+  display: flex;
+  background-color: white;
+}
+
+/* end : newsletter  */
+
+/* start: navbar */
+#navbar {
+  background-color: #f5f5f5;
+  /* background-color: tomato; */
+  height: 100px;
+  width: 1600px;
+  display: flex;
+  padding: 24px 160px 24px 160px;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+
+.tf_8 {
+  color: #0e0e0e;
+  opacity: 0.8;
+  font-family: "Fira Sans", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 32px;
+}
+
+/* end: navbar  */
+
+/* start: footer */
+footer {
+  /* margin: 80px 160px 80px 160px; */
+  display: flex;
+  flex-direction: column;
+
+  align-content: space-around;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 10px;
+  border-radius: 24px;
+  background: white;
+}
+footer > div > h4 {
+  margin-top: 20px;
+}
+/* end: footer */
